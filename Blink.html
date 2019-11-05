@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blink text</title>
+</head>
+<body>
+
+<div id="text" style="font-size: 40px"></div>
+
+<script type="text/javascript">
+setInterval(function(){	
+var txt=document.getElementById("text");
+
+txt.innerHTML="Hello !! Everyone";
+txt.style.color="red";
+
+txt.style.display=(txt.style.display=='none'?'':'none');
+
+
+},500);
+
+
+</script>
+
+
+</body>
+</html>
